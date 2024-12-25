@@ -38,14 +38,14 @@ def run_python_file(filename):
 install_requirements()
 
 # 按顺序运行三个Python文件，并在每个文件运行后等待用户按 Enter
-print("正在运行 '统计性描述.py'...")
+
 run_python_file("统计性描述.py")
 input("\n按 Enter 键继续运行下一个文件...")  # 等待用户按 Enter
 
-print("正在运行 '方差分析.py'...")
+
 run_python_file("方差分析.py")
 input("\n按 Enter 键继续运行下一个文件...")  # 等待用户按 Enter
 
-print("正在运行 '回归分析.py'...")
+
 run_python_file("回归分析.py")
 input("\n按 Enter 键结束程序...")  # 等待用户按 Enter
